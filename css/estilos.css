@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Josefin+Sans:wght@300&family=Roboto+Condensed:ital@1&display=swap');
+
+body{
+    width: 98%;
+    margin: 15px;
+    background-color: cadetblue;
+    color: white;
+}
+#fuente, #buscar, #resultados {
+    width: 95%;
+}
+fieldset {
+    width: auto;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+#text, #search, #view {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 95%;
+    padding: 10px;
+    margin: 0px;
+    align-self: center;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    text-decoration: overline wavy;
+}
+h2 {
+    font-family: 'Courgette', cursive;
+    font-size: 1.2rem;
+    margin: 0px;
+}
+button {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px;
+    margin: 10px 0px;
+    border:0.16em solid #FFFFFF;
+    border-radius: 10px;
+    color:#FFFFFF;
+    text-align:center;
+    text-decoration: none;
+    transition: all 0.15s;
+    background: cadetblue;
+}
+button:hover {
+    filter: brightness(0.8);
+}
+
+@media (orientation: portrait) {
+    #fuente, #buscar, #resultados {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+    h2 {
+        font-size: 0.9rem;
+    }
+
+}
